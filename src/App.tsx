@@ -8,10 +8,6 @@ import AppLink from './components/appLink'
 function App() {
   return (
     <div className="App">
-        <Route path="/ok">
-          <AppLink></AppLink>
-        </Route>
-      <Route path="/kk">
       <body>
         <div className="promo-header">
           <div className="promo-text">
@@ -27,7 +23,6 @@ function App() {
           </div>
         </div>
       </body>
-      </Route>
     </div>
   );
 }
